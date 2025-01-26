@@ -2,6 +2,7 @@
 
 🛠️ Overview
 
+
 This is a full-stack inventory management application that allows users to:
 
 ➕ Add new inventory items.
@@ -15,6 +16,7 @@ This is a full-stack inventory management application that allows users to:
 
 ✨ Features
 
+
 📝 Dynamic Item Management: Add, edit, and delete inventory items.
 
 📂 Category Filtering: Filter items by category.
@@ -26,6 +28,8 @@ This is a full-stack inventory management application that allows users to:
 🌐 Backend Integration: REST API using Node.js and Express.
 
 💾 Database: Persistent data storage with MongoDB.
+
+
 
 
 📂 Project Structure
