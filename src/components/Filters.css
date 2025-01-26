@@ -1,0 +1,79 @@
+/* Filters.css */
+
+/* Container for the filters */
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+  background-color: #0c3258;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap; /* Ensure the items wrap onto the next line if there's not enough space */
+  gap: 10px; /* Add some space between the buttons */
+}
+
+/* Styling for the buttons */
+.filter-btn, .sort-btn {
+  padding: 12px 20px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Filter button specific styles */
+.filter-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+/* Sort button specific styles */
+.sort-btn {
+  background-color: #f0ad4e;
+  color: white;
+}
+
+.sort-btn:hover {
+  background-color: #ec971f;
+  box-shadow: 0 4px 8px rgba(240, 173, 78, 0.3);
+}
+
+/* Focus state for accessibility */
+.filter-btn:focus, .sort-btn:focus {
+  outline: 3px solid #0056b3;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+}
+
+/* Button container for better alignment */
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Ensure the button group takes up full width */
+}
+
+/* For smaller screens, stack the buttons vertically */
+@media (max-width: 768px) {
+  .filters-container {
+    flex-direction: column;
+    align-items: stretch;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
+    white-space: nowrap; /* Prevent wrapping */
+  }
+
+  .filter-btn, .sort-btn {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
