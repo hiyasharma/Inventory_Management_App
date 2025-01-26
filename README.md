@@ -21,5 +21,5 @@ This is a full-stack inventory management application that allows users to:
 
 📂 Project Structure
 
-![Alt text](D:\Projects\inventory-management\images)
+![Alt text](D:\Projects\inventory-management\images\project_dir.png)
 
