@@ -1,5 +1,6 @@
 📦 Inventory Management Application
 
+
 🛠️ Overview
 
 
@@ -12,6 +13,7 @@ This is a full-stack inventory management application that allows users to:
 🗑️ Delete items.
 
 🔍 Filter and sort items by category and quantity.
+
 
 
 ✨ Features
