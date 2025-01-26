@@ -1,15 +1,20 @@
 {
-  "name": "inventory-api",
+  "homepage": "https://hiyasharma.github.io/Inventory_Management_App",
+  "name": "inventory-management",
   "version": "1.0.0",
-  "description": "",
+  "description": "A React-based inventory management application",
   "main": "index.js",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-      "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hiya Sharma",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.3",
@@ -17,6 +22,7 @@
     "express": "^4.21.2",
     "mongoose": "^8.9.5"
   },
-
-   "homepage": "https://hiyasharma.github.io/Inventory_Management_App"
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
