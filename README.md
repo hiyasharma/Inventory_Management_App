@@ -23,3 +23,5 @@ This is a full-stack inventory management application that allows users to:
 
 ![Alt text](D:\Projects\inventory-management\images\project_dir.png)
 
+![image](https://github.com/user-attachments/assets/9f6776c5-1253-42e6-81dc-ad8cbc010ce4)
+
