@@ -100,6 +100,10 @@ Changes are saved in the database also
 
 ![image](https://github.com/user-attachments/assets/fb730261-39b2-429f-ac4b-d6795b71f57e)
 
+You can also sort by quantity
+
+![image](https://github.com/user-attachments/assets/6d9dae51-bb7c-4684-bf6b-f8c323112bed)
+
 Each color represents a specific stock level category:
 
 ![image](https://github.com/user-attachments/assets/6818afb1-1ad9-4b68-96cb-bcd30297a5a3)
