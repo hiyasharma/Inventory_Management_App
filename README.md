@@ -3,19 +3,28 @@
 🛠️ Overview
 
 This is a full-stack inventory management application that allows users to:
+
 ➕ Add new inventory items.
+
 ✏️ Edit existing items.
+
 🗑️ Delete items.
+
 🔍 Filter and sort items by category and quantity.
 
 
 ✨ Features
 
 📝 Dynamic Item Management: Add, edit, and delete inventory items.
+
 📂 Category Filtering: Filter items by category.
+
 📊 Quantity Sorting: Sort items by their quantity.
+
 💻 Responsive Design: User-friendly interface built with React.
+
 🌐 Backend Integration: REST API using Node.js and Express.
+
 💾 Database: Persistent data storage with MongoDB.
 
 
@@ -111,10 +120,15 @@ Each color represents a specific stock level category:
 🤝 Contribution
 
 Contributions are welcome! Please follow these steps:
+
 Fork the repository.
+
 Create a new branch for your feature: git checkout -b feature-name.
+
 Commit your changes: git commit -m 'Add a feature'.
+
 Push to the branch: git push origin feature-name.
+
 Open a pull request.
 
 
